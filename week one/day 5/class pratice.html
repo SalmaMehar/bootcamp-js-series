@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else if</title>
+</head>
+<body>
+    <script>
+        debugger
+        var marks = 90;
+        var marks2 = 80;
+        var marks3 = 40;
+        var student = 95;
+        var subject = "chemistry";
+        var age = 20;
+        if(student > marks){
+            if(subject === "chemistry"){
+                console.log("shinning star")
+            }
+            else{
+                console.log("shinning star without chemistry")
+            }
+            
+        }
+        else if(student > marks2 && student < marks){
+            console.log("A+")
+        }
+        else if(student > marks3 && student < marks2){
+            console.log("pass")
+        }
+        else if(student < marks3){
+            console.log("fail")
+        }
+        else{
+            console.log("enter valid marks")
+        }
+
+    </script>
+</body>
+</html>
